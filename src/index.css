@@ -23,7 +23,7 @@ code {
 
 .navbar {
   height: 12.5vh;
-  background-color: #759CC9;
+  background-color: #aaaaaa;
 }
 
 .nav-link {
@@ -51,7 +51,7 @@ h1 {
 }
 
 .home {
-  background-image: url("../public/assets/computer.jpg");
+  background-image: url("./assets/computer.jpg");
   background-size: cover;
 }
 
