@@ -1,4 +1,5 @@
 import React from "react";
+import me from "../assets/me.jpg";
 
 function Home() {
     return (
@@ -25,7 +26,7 @@ function Home() {
                     </div>
                     <div className="col-lg-5 d-flex justify-content-center">
                         <img
-                            src="./assets/me.jpg"
+                            src={me}
                             className="img-fluid border"
                             alt="A picture of myself"
                         />
