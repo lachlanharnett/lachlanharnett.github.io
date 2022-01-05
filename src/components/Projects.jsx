@@ -7,9 +7,9 @@ function Projects() {
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <img
-                            src="/assets/busting.png"
+                            src="./assets/busting.png"
                             className="img-fluid"
-                            alt="Green motherboard"
+                            alt="Busting web app"
                         />
                     </div>
                     <div class="col-5">
@@ -39,7 +39,7 @@ function Projects() {
                 <div className="row justify-content-center my-5">
                     <div className="col-3">
                         <img
-                            src="/assets/motherboard.jpg"
+                            src="./assets/motherboard.jpg"
                             className="img-fluid"
                             alt="Green motherboard"
                         />
@@ -69,7 +69,7 @@ function Projects() {
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <img
-                            src="/assets/site.jpg"
+                            src="./assets/site.jpg"
                             className="img-fluid"
                             alt="Green motherboard"
                         />

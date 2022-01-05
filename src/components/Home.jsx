@@ -25,7 +25,7 @@ function Home() {
                     </div>
                     <div className="col-lg-5 d-flex justify-content-center">
                         <img
-                            src="/assets/me.jpg"
+                            src="./assets/me.jpg"
                             className="img-fluid border"
                             alt="A picture of myself"
                         />
