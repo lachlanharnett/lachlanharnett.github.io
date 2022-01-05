@@ -1,4 +1,7 @@
 import React from "react";
+import busting from "../assets/busting.png"
+import motherboard from "../assets/motherboard.jpg"
+import portfolio from "../assets/site.jpg"
 
 function Projects() {
     return (
@@ -7,7 +10,7 @@ function Projects() {
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <img
-                            src="./Portfolio-Site/assets/busting.png"
+                            src={busting}
                             className="img-fluid"
                             alt="Busting web app"
                         />
@@ -39,7 +42,7 @@ function Projects() {
                 <div className="row justify-content-center my-5">
                     <div className="col-3">
                         <img
-                            src="./assets/motherboard.jpg"
+                            src={motherboard}
                             className="img-fluid"
                             alt="Green motherboard"
                         />
@@ -69,7 +72,7 @@ function Projects() {
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <img
-                            src="./assets/site.jpg"
+                            src={portfolio}
                             className="img-fluid"
                             alt="Green motherboard"
                         />
