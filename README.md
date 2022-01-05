@@ -2,12 +2,6 @@
 
 ## View the site
 
-You can access the site at
-
-### `npm start`
-
-Runs the app in the development mode.\
+You can access the site [here](https://lachlanharnett.github.io/Portfolio-Site/).
+Or clone the repository and running locally using npm start.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
