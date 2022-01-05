@@ -10,14 +10,14 @@ import {
 } from "./components";
 
 ReactDOM.render(
-    <Router>
+    <HashRouter>
         <Navigation />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
         </Routes>
-    </Router>,
+    </HashRouter>,
 
     document.getElementById("root")
 );
