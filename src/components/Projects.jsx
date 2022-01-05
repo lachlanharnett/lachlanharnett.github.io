@@ -7,7 +7,7 @@ function Projects() {
                 <div className="row justify-content-center">
                     <div className="col-3">
                         <img
-                            src="./assets/busting.png"
+                            src="./Portfolio-Site/assets/busting.png"
                             className="img-fluid"
                             alt="Busting web app"
                         />
