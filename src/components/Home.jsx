@@ -24,10 +24,10 @@ function Home() {
 
                         </div>
                     </div>
-                    <div className="col-lg-5 d-flex justify-content-center">
+                    <div className="col-lg-5 d-flex justify-content-center me-image">
                         <img
                             src={me}
-                            className="img-fluid border h-100"
+                            className="img-fluid border myimg"
                             alt="A picture of myself"
                         />
                     </div>

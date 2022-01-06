@@ -52,6 +52,11 @@ h1 {
   font-size: 7.5vmin;
 }
 
+h2 {
+  font-family: 'Assistant', Arial, serif;
+  font-size: calc(10px + 3.5vw);
+}
+
 .border {
   border: none !important;
   border-radius: 60px;
@@ -62,7 +67,7 @@ h1 {
   font-weight: bold;
 }
 
-.home {
+.home, .projects {
   background-image: url("./assets/computer.jpg");
   background-size: cover;
 }
@@ -79,6 +84,9 @@ h1 {
 
 .full-background {
   background-color: rgba(117, 156, 201, 0.6);
+  height: auto;
+  padding-top: 5em;
+  padding-bottom: 5em;
 
 }
 
@@ -86,8 +94,8 @@ h1 {
   font-size: 10em;
 }
 
-.img {
-  max-height: 80%;
+.myimg {
+  height: 60vh;
   width: auto;
 }
 
@@ -97,30 +105,46 @@ h1 {
     max-height: 100%;
   }
 
- .background {
-   max-height: 100%;
-   border-radius: 0;
-   background: none;
-   overflow: hidden;
- }
+  .background {
+    max-height: 100%;
+    border-radius: 0;
+    background: none;
+    overflow: hidden;
+  }
 
- .icons {
-   flex-wrap: nowrap;
- }
+  .full-background {
+    max-height: 100%;
+  }
 
- img {
-   height: auto;
-   width: 20%;
-   border-radius: 0 !important;
- }
+  .project-link {
+    font-size: calc(10px + 4vw);
+  }
+
+  .icons {
+    flex-wrap: nowrap;
+    font-size: calc(5px + 1vw);
+
+  }
+
+  .myimg {
+    padding-top: 2em;
+    height: auto;
+    width: 20%;
+    border-radius: 0 !important;
+  }
+
 
   .navbar-brand {
     font-size: 5vw;
   }
+
+  .project-info {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (max-height: 760px) and (max-width: 992px) {
-  img {
+  .myimg {
     display: none;
   }
 }
