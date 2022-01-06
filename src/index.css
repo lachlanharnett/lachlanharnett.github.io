@@ -24,7 +24,7 @@ html,body {
 }
 
 .navbar-brand {
-  font-size: xx-large;
+  font-size: xxx-large;
   color: white;
   font-family: 'Lobster';
 }
@@ -113,9 +113,13 @@ h1 {
    width: 20%;
    border-radius: 0 !important;
  }
+
+  .navbar-brand {
+    font-size: 5vw;
+  }
 }
 
-@media screen and (max-height: 760px) {
+@media screen and (max-height: 760px) and (max-width: 992px) {
   img {
     display: none;
   }
