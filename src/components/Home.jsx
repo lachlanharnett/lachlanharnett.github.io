@@ -4,14 +4,14 @@ import me from "../assets/me.jpg";
 function Home() {
     return (
         <div className="home">
-            <div className="container central d-flex align-items-center">
+            <div className="container central home-full-background d-flex align-items-center">
                 <div className ="row background align-items-center justify-content-center my-5">
-                    <div className="col-lg-5 mx-5">
+                    <div className="col-lg-5 col-md-8 mx-5 introduction">
                         <h1 className="font-weight-light text-center my-5">Hi, I'm Lachlan</h1>
                         <p className="intro-text my-5 mx-3 text-center">
                             This is my portfolio site. Feel free to check out my projects or if you would like to contact me you can click the links below.
                         </p>
-                        <div className="row justify-content-between mx-5 my-5">
+                        <div className="row icons justify-content-between mx-lg-5 mx-sm-3 my-5">
                             <a href="https://github.com/lachlanharnett">
                                 <i className="fab fa-github fa-4x color-purple" title="GitHub"></i>
                             </a>
@@ -27,7 +27,7 @@ function Home() {
                     <div className="col-lg-5 d-flex justify-content-center">
                         <img
                             src={me}
-                            className="img-fluid border"
+                            className="img-fluid border h-100"
                             alt="A picture of myself"
                         />
                     </div>
