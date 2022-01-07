@@ -54,12 +54,12 @@ function Projects() {
                             </div>
                             <div className="col-lg-2 col-auto">
                                 <a href="https://github.com/lachlanharnett/UQCS-Hackathon-2020" title="View repository">
-                                    <i className="fab fa-github busting-github fa-3x"></i>
+                                    <i className="fab fa-github busting-github fa-3x project-link"></i>
                                 </a>
                             </div>
                             <div className="col-lg-2 col-auto">
                                 <a href="https://lachlanharnett.github.io/UQCS-Hackathon-2020/" title="View web app">
-                                    <i className="fas fa-external-link-alt fa-3x"></i>
+                                    <i className="fas fa-external-link-alt fa-3x project-link"></i>
                                 </a>
                             </div>
                         </div>
@@ -84,12 +84,12 @@ function Projects() {
                             </div>
                             <div className="col-lg-2 col-auto">
                                 <a href="https://github.com/lachlanharnett/Portfolio-Site" title="View repository">
-                                    <i className="fab fa-github busting-github fa-3x"></i>
+                                    <i className="fab fa-github busting-github fa-3x project-link"></i>
                                 </a>
                             </div>
                             <div className="col-lg-2 col-auto">
                                 <a href="https://lachlanharnett.github.io/Portfolio-Site/" title="View web app">
-                                    <i className="fas fa-external-link-alt fa-3x"></i>
+                                    <i className="fas fa-external-link-alt fa-3x project-link"></i>
                                 </a>
                             </div>
                         </div>
