@@ -6,7 +6,7 @@ import portfolio from "../assets/site.jpg"
 function Projects() {
     return (
         <div className="projects">
-            <div className="container central d-flex flex-column align-items-center justify-content-center full-background">
+            <div className="container central d-flex flex-column align-items-center justify-content-center full-background projects-background">
                 <div className="row justify-content-center align-items-center">
                     <div className="col-lg-3 col-4">
                         <img
