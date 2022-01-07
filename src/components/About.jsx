@@ -2,9 +2,9 @@ import React from "react";
 
 function About() {
     return (
-        <div className="home">
+        <div className="about">
             <div className="container central d-flex align-items-center justify-content-center full-background">
-                <div className ="row justify-content-center">
+                <div className ="row justify-content-center expand">
                     <div className="col-2">
                         <h1 className="bracket text-center">&#123;</h1>
                     </div>

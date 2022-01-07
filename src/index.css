@@ -15,13 +15,15 @@ code {
     monospace;
 }
 
-html,body {
+html, body, #root {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
 }
+
+
 
 .navbar-brand {
   font-size: xxx-large;
@@ -43,9 +45,9 @@ html,body {
   height: 87.5vh;
 }
 
-/*.row {*/
-/*  height: 60%;*/
-/*}*/
+.about {
+  height: 100%;
+}
 
 h1 {
   font-family: 'Assistant', Arial, serif;
@@ -67,7 +69,7 @@ h2 {
   font-weight: bold;
 }
 
-.home, .projects {
+.home, .projects, .about {
   background-image: url("./assets/computer.jpg");
   background-size: cover;
 }
@@ -84,10 +86,9 @@ h2 {
 
 .full-background {
   background-color: rgba(117, 156, 201, 0.6);
-  height: auto;
+  height: 100%;
   padding-top: 5em;
   padding-bottom: 5em;
-
 }
 
 .bracket {
@@ -95,7 +96,7 @@ h2 {
 }
 
 .myimg {
-  height: 60vh;
+  height: 50vh;
   width: auto;
 }
 
