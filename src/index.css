@@ -83,7 +83,9 @@ h2 {
   color: black;
 }
 
-
+.project-text-short {
+  display: none;
+}
 
 .full-background {
   background-color: rgba(117, 156, 201, 0.6);
@@ -151,6 +153,14 @@ h2 {
 
 @media screen and (max-height: 760px) and (max-width: 992px) {
   .myimg {
+    display: none;
+  }
+
+  .project-text-short {
+    display: block;
+  }
+
+  .project-text {
     display: none;
   }
 }
