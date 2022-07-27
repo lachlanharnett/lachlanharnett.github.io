@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="about">
             <div className="container central d-flex align-items-center justify-content-center full-background">
-                <div className ="row justify-content-center">
+                <div className ="row justify-content-center align-items-center">
                     <div className="col-2 justify-content-center">
                         <h1 className="bracket text-center">&#123;</h1>
                     </div>
