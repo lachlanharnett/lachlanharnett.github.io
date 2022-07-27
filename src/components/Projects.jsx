@@ -87,7 +87,7 @@ function Projects() {
                                 <h2 className="font-weight-light">Portfolio</h2>
                             </div>
                             <div className="col-lg-2 col-auto">
-                                <a href="https://github.com/lachlanharnett/" title="View repository">
+                                <a href="https://github.com/lachlanharnett/lachlanharnett.github.io" title="View repository">
                                     <i className="fab fa-github busting-github fa-3x project-link"></i>
                                 </a>
                             </div>
