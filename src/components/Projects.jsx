@@ -87,12 +87,12 @@ function Projects() {
                                 <h2 className="font-weight-light">Portfolio</h2>
                             </div>
                             <div className="col-lg-2 col-auto">
-                                <a href="https://github.com/lachlanharnett/Portfolio-Site" title="View repository">
+                                <a href="https://github.com/lachlanharnett/" title="View repository">
                                     <i className="fab fa-github busting-github fa-3x project-link"></i>
                                 </a>
                             </div>
                             <div className="col-lg-2 col-auto">
-                                <a href="https://lachlanharnett.github.io/Portfolio-Site/" title="View web app">
+                                <a href="https://lachlanharnett.github.io/" title="View web app">
                                     <i className="fas fa-external-link-alt fa-3x project-link"></i>
                                 </a>
                             </div>

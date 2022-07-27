@@ -2,7 +2,7 @@
 
 ## View the site
 
-You can access the site [here](https://lachlanharnett.github.io/Portfolio-Site/).
+You can access the site [here](https://lachlanharnett.github.io/).
 <br>
 Or clone the repository and run it locally using npm start.
 <br>
