@@ -23,7 +23,16 @@ html, body, #root {
   overflow-x: hidden;
 }
 
-
+.typing-text {
+  font-family: Consolas;
+  font-size: 3.5em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+          typing 4s steps(50, end),
+          blink-caret .75s step-end 6;
+}
 
 .navbar-brand {
   font-size: xxx-large;
@@ -39,10 +48,12 @@ html, body, #root {
 
 .nav-link {
   color: white;
+  font-size: 1.5em;
 }
 
 .central {
   height: 87.5vh;
+  min-width: 65vw;
 }
 
 .about {
@@ -56,7 +67,8 @@ h1 {
 
 h2 {
   font-family: 'Assistant', Arial, serif;
-  font-size: calc(10px + 3.5vw);
+  font-size: 4.4em;
+          /*calc(10px + 3.5vw);*/
 }
 
 .border {
@@ -74,32 +86,32 @@ h2 {
   background-size: cover;
 }
 
-.background {
-  background-color: rgba(117, 156, 201, 0.6);
-  border-radius: 100px;
-}
-
 .fas, .fab {
   color: black;
+}
+
+.project-text {
+  font-size: 1.1em;
 }
 
 .project-text-short {
   display: none;
 }
 
+.info-text {
+  font-size: 1.25em;
+}
+
+.project-img {
+  box-shadow: 1em 1.5em 1.75em 0 rgba(0, 0, 0, 0.6), -1em 1.5em 1.75em 0 rgba(0, 0, 0, 0.6);
+}
+
 .full-background {
-  background-color: rgba(117, 156, 201, 0.6);
-  padding-top: 5em;
-  padding-bottom: 5em;
+  background-color: rgba(117, 156, 201, 0.75);
 }
-
-.projects-background {
-  height: auto;
-}
-
 
 .bracket {
-  font-size: 10em;
+  font-size: 13em;
 }
 
 .myimg {
@@ -130,7 +142,7 @@ h2 {
 
   .icons {
     flex-wrap: nowrap;
-    font-size: calc(5px + 1vw);
+    /*font-size: calc(5px + 1vw);*/
 
   }
 
@@ -162,5 +174,22 @@ h2 {
 
   .project-text {
     display: none;
+  }
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  0% {
+    border-right: .15em solid black;
+    border-color: transparent;
+  }
+  50% {
+    border-right: .15em solid black;
+    border-color: black;
   }
 }

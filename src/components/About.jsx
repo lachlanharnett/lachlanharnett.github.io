@@ -3,19 +3,31 @@ import React from "react";
 function About() {
     return (
         <div className="about">
-            <div className="container central d-flex align-items-center justify-content-center full-background">
-                <div className ="row justify-content-center expand">
-                    <div className="col-2">
+            <div className="container central align-items-center justify-content-center full-background pt-5">
+                <div className ="row justify-content-center expand mt-5">
+                    <div className="col-1">
                         <h1 className="bracket text-center">&#123;</h1>
                     </div>
-                    <div className="col-8">
-                        <h1 className="font-weight-light">Hi, I'm Lachlan</h1>
-                        <p className="about-text">
-                            I'm a Computer Science student at the University of Queensland, graduating 2023. I'm majoring in Cybersecurity
+                    <div className="col-9">
+                        <p className="about-text text-center">
+                            Originally from Cairns, QLD, I moved to Brisbane to further my education. I'm currently a Computer Science student
+                            at the University of Queensland and will be graduating in 2023. I am majoring in Cybersecurity and have a strong
+                            passion for working with fun, interesting and innovative projects. Technology has fascinated me from a young age,
+                            so pursuing a career based around this was an easy choice.
                         </p>
                     </div>
-                    <div className="col-2">
+                    <div className="col-1">
                         <h1 className="bracket text-center">&#125;</h1>
+                    </div>
+                </div>
+                <div className ="row pt-5 justify-content-center">
+                    <p className="col-4 info-text text-right">
+                        Click here to download my resume:
+                    </p>
+                    <div className="col-1">
+                        <a href="../assets/Lachlan%20Harnett%20Resume.pdf" title="Download Resume" download>
+                            <i className="fas fa-file-download fa-2x"/>
+                        </a>
                     </div>
                 </div>
             </div>
