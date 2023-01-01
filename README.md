@@ -1,4 +1,4 @@
-
+Note: Recent changes to this site have broken the mobile versions.
 
 ## View the site
 
