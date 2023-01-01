@@ -20,7 +20,7 @@ html, body, #root {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .typing-text {
@@ -37,7 +37,7 @@ html, body, #root {
 .navbar-brand {
   font-size: xxx-large;
   color: white;
-  font-family: 'Lobster';
+  font-family: 'Lobster', serif;
 }
 
 .navbar {
@@ -67,8 +67,7 @@ h1 {
 
 h2 {
   font-family: 'Assistant', Arial, serif;
-  font-size: 4.4em;
-          /*calc(10px + 3.5vw);*/
+  font-size:  calc(10px + 2.25vw);
 }
 
 .border {
