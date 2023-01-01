@@ -103,6 +103,11 @@ h2 {
 
 .project-img {
   box-shadow: 1em 1.5em 1.75em 0 rgba(0, 0, 0, 0.6), -1em 1.5em 1.75em 0 rgba(0, 0, 0, 0.6);
+  max-width: 95%;
+}
+
+.middle-row {
+  padding: calc(3px + 1.6em) 0 calc(3px + 1.6em) 0;
 }
 
 .full-background {

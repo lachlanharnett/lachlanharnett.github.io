@@ -45,7 +45,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="row my-5 justify-content-center">
+                <div className="row justify-content-center middle-row">
                     <div className="col-3">
                         <img
                             src={motherboard}
@@ -113,7 +113,7 @@ function Projects() {
                             </a>
                         </div>
                         <div className="row">
-                            <a href="https://lachlanharnett.github.io/Portfolio-Site/" title="View web app">
+                            <a href="https://lachlanharnett.github.io/" title="View web app">
                                 <i className="fas fa-external-link-alt fa-3x project-link"/>
                             </a>
                         </div>
