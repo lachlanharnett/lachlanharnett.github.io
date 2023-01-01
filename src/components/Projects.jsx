@@ -99,10 +99,10 @@ function Projects() {
                         </div>
                         <div className="row mr-3">
                             <p className="project-text">
-                                A portfolio site to showcase my projects, built using React and BootstrapJS.
+                                A portfolio site to showcase my projects, built using React and Bootstrap.
                             </p>
                             <p className="project-text-short">
-                                A portfolio site to showcase my projects, built using React and BootstrapJS.
+                                A portfolio site to showcase my projects, built using React and Bootstrap.
                             </p>
                         </div>
                     </div>
