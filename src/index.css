@@ -80,6 +80,10 @@ h2 {
   font-weight: bold;
 }
 
+.small-typing {
+  display: none;
+}
+
 .home, .projects, .about {
   background-image: url("./assets/computer.jpg");
   background-size: cover;
@@ -129,6 +133,26 @@ h2 {
     max-height: 100%;
   }
 
+  .large-typing {
+    display: none;
+  }
+
+  .small-typing {
+    display: block;
+  }
+
+  .typing-text2 {
+    font-family: Consolas;
+    font-size: 3.5em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:
+            typing 4s steps(50, end),
+            blink-caret .75s step-end 6;
+  }
+
+
   .background {
     max-height: 100%;
     border-radius: 0;
@@ -157,6 +181,13 @@ h2 {
     border-radius: 0 !important;
   }
 
+  .about-text {
+    font-size: 1em;
+  }
+
+  .bracket {
+    display: none;
+  }
 
   .navbar-brand {
     font-size: 5vw;

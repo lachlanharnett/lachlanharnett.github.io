@@ -5,10 +5,15 @@ function Home() {
     return (
         <div className="home">
             <div className="container central align-items-center justify-content-center full-background pt-3">
-                <div className ="row-sm-4 align-items-center justify-content-center py-5">
-                    <h1 className="col-6 text-center typing-text"> Hi, I'm Lachlan,</h1>
+                <div className ="row-sm-4 align-items-center justify-content-center py-5 large-typing">
+                    <h1 className="col-7 text-center typing-text"> Hi, I'm Lachlan...</h1>
                 </div>
-
+                <div className ="row-3 align-items-center justify-content-center pt-4 small-typing">
+                    <h1 className="col-7 text-center typing-text"> Hi, I'm </h1>
+                </div>
+                <div className ="row-3 align-items-center justify-content-center small-typing">
+                    <h1 className="col-7 text-center typing-text2">Lachlan</h1>
+                </div>
                 <div className ="row align-items-center justify-content-center pt-4">
                     <div className="col-md-6 intro-text align-items-center justify-content-center mx-0.5">
                         <p className="text-center my-4">

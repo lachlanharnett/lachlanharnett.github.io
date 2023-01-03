@@ -21,14 +21,13 @@ function About() {
                     </div>
                 </div>
                 <div className ="row pt-5 justify-content-center">
-                    <p className="col-4 info-text text-right">
-                        Click here to download my resume:
+                    <p className="info-text text-right">
+                        Click here to access my resume: &nbsp;
                     </p>
-                    <div className="col-1">
-                        <a href="../assets/Lachlan%20Harnett%20Resume.pdf" title="Download Resume" download>
-                            <i className="fas fa-file-download fa-2x"/>
-                        </a>
-                    </div>
+                    <a href="https://raw.githubusercontent.com/lachlanharnett/lachlanharnett.github.io/main/src/assets/Lachlan%20Harnett%20Resume.pdf" title="Download Resume" download="Lachlan Harnett Resume">
+                        <i className="fas fa-file-download fa-2x"/>
+                    </a>
+
                 </div>
             </div>
         </div>
