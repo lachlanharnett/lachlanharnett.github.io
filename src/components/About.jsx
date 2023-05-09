@@ -24,7 +24,7 @@ function About() {
                     <p className="info-text text-right">
                         Click here to access my resume: &nbsp;
                     </p>
-                    <a href="https://raw.githubusercontent.com/lachlanharnett/lachlanharnett.github.io/main/src/assets/Lachlan%20Harnett%20Resume.pdf" title="Download Resume" download="Lachlan Harnett Resume">
+                    <a href="https://raw.githubusercontent.com/lachlanharnett/lachlanharnett.github.io/main/src/assets/Lachlan%2DHarnett%2DResume.pdf" title="Download Resume" download="Lachlan Harnett Resume">
                         <i className="fas fa-file-download fa-2x"/>
                     </a>
 
